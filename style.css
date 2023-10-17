@@ -1,0 +1,240 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+:root{
+  --primary-color: #e1e9ed;
+  --dark-color: #076490;
+  --light-color: #199de5;
+  --grey-color: #becbd2;
+  --shadow: 0 1px 5 px rgba(104 104 104 0.8);
+}
+body{
+  font-family: sans-serif;
+  background-color: var(--primary-color);
+}
+header{
+  background-color: var(--light-color);
+  margin: 0;
+  position: sticky;
+}
+.wrapper{
+  position: sticky;
+}
+main{
+  display: grid;
+  grid-row: 1fr;
+  grid-template-columns: 220px 1fr 220px;
+  margin: 20px;
+  gap: 20px;
+}
+
+.main-nav li {
+  text-decoration: none;
+  display: inline-block;
+  padding: 18px;
+}
+.main-nav a {
+  text-decoration: none;
+  color: white;
+}
+.main-nav-home{
+  background-color: var(--dark-color);
+  width: 100px;
+}
+.main-nav li:hover{
+  background-color: var(--primary-color);
+  color: black;
+}
+
+/* Section Profile */
+.section-profile {
+display: block;
+background-color: white;
+box-shadow: var(--shadow);
+text-align: center;
+padding: 20px;
+
+}
+.section-profile img{
+  border-radius: 50%;
+  border: none;
+  width: 100px;
+  margin: 20px;
+}
+.section-profile p{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  text-align: start;
+}
+.section-profile i{
+  color: #607d8b;;
+}
+/* Info Section */
+.info-section{
+  margin: 0;
+  box-sizing: border-box;
+  display: block;
+  background-color: white;
+  box-shadow: var(--shadow);
+  text-align: center;
+}
+.group-info, .event-info, .photo-info{
+  background-color: var(--light-color);
+  padding: 20px;
+  margin: 0;
+  color: white;
+  text-decoration: none;
+}
+.info-section p{
+  padding: 20px;
+}
+.info-section a{
+  text-decoration: none;
+  color: white;
+}
+.portfolio{
+ display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 10px;
+}
+/* Interest section  */
+.interest{
+  display: block;
+  background-color: white;
+  box-shadow: var(--shadow);
+  padding: 20px;
+  
+}
+.interest span{
+ margin: 3px;
+ padding: 2px;
+
+}
+.news-seytech{
+  background-color: var(--light-color);
+}
+.friens-games{
+  background-color: var(--light-color);
+}
+.food-design{
+  background-color: #607d8b;
+}
+.alert-box{
+  display: inline-block;
+  background-color: #becbd2;
+  box-shadow: var(--shadow);
+  padding: 20px;
+  margin-bottom: 16px;
+  font-size: 18px;
+}
+.alert-box i{
+  position: relative;
+  left: 130px;
+  background-color: #607d8b;
+}
+.alert-box i:hover{
+  background-color: gray;
+  cursor: pointer;
+}
+
+/* Middle Section */
+
+.status, .feed-info-one, .feed-info-two, .feed-info-three, .aside-bar-events, .aside-bar-request, .aside-bar-icon, .aside-bar-adb{
+  display: block;
+  background-color: white;
+  box-shadow: var(--shadow);
+  padding: 20px;
+}
+.status p{
+  border: 0.5px solid grey;
+  padding: 8px 16px;
+  margin-bottom: 20px;
+}
+.section-middle a{
+  background-color: var(--light-color);
+  text-decoration: none;
+  padding: 8px 16px;
+  color: white;
+}
+.section-middle a:hover{
+  background-color: var(--grey-color);
+  color: black;
+}
+.avatar{
+  border-radius: 50%;
+  border: none;
+  width: 80px;
+  margin: 10px;
+}
+.section-middle span{
+ float: right;
+}
+.section-middle h4{
+  display: inline-block;
+  
+}
+
+
+
+.feed-info-three img{
+ 
+}
+
+
+/* Right Colomn */
+.aside-bar{
+  text-align: center;
+  padding-bottom: 10px;
+}
+.aside-bar img{
+  padding: 16px;
+}
+.aside-bar-events a{
+  background-color: var(--grey-color);
+  text-decoration: none;
+  padding: 8px 80px;
+  color: black;
+
+}
+.aside-bar-events a:hover{
+  background-color: #607d8b
+}
+
+/* Need to fix */
+
+.icon-btn{
+  display: block;
+  /* background-color: green;
+  color: white; 
+  te*/
+  
+}
+
+.aside-bar-icon{
+  padding: 50px;
+  font-size: 30px;
+}
+.aside-bar-adb{
+  padding: 30px;
+}
+
+
+/* footer */
+.footer-one{
+  background-color: var(--light-color);
+  padding: 25px;
+  color: white;
+}
+.footer-two{
+  background-color: var(--dark-color);
+  color: white;
+  padding: 18px;
+}
+.footer-two a{
+  color: white;
+  text-decoration: none;
+  
+}
